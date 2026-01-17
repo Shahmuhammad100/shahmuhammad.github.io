@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+<style>
+*{
+  margin: 0%;
+  padding: 0%;
+}
+  body {
+    margin: 0; font-family: Arial, sans-serif;
+    display: block;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+header{
+
+      padding: 10px 20px;
+background-color: rgb(0, 132, 255);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+  header .searchbar {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+.logo {  font-size: 14px;
+    font-weight: bold;}
+
+  header input[type="search"] {
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  header .nav-right button {
+  font-size: 10px;
+    background: transparent;
+    border: 1px solid white;
+border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  form{ display: inline-block;}
+
+
+ main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+ }
+
+
+.Product{ 
+  margin: 20px;
+  width: 100%;
+  max-width: 135px;
+  border: 1px solid black}
+
+img { width: 100%;
+  max-width: 135;
+}
+
+h3{ font-size: 12px;}
+
+.Old-price { text-decoration: line-through;
+color: rgb(248, 112, 0);}
+
+.New-price{font-weight: 700;
+  font-size: 3vh;
+  color: green;
+}
+
+
+    @media (max-width: 1200px) {
+      .product {
+        width: 100%;
+      }
+    }
+
+
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    height: 70px;
+
+}
+
+
+</style>
+
+</head>
+<body>
+
+  <header>
+  <div class="logo">Jamali.PK</div>
+  <div class="searchbar">
+        
+
+    <input type="search" id="searchBar" placeholder="Search products..." onkeyup="searchProducts()" />
+  </div>
+  <div class="nav-right">
+     <Form action="H:\Shop 2\Login.HTML"> <button>Account</button></Form>
+    <button>Help</button>
+  </div>
+</header>
+
+
+<main>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+<div class="Product" onclick="viewproduct('Smart Watch')">
+  <a href="H:\Shop 2\Product.HTMl">
+    <img src="/sdcard/Shop 2/Shop 2/img/1.jpg"></a>
+    <h3>Smart Watch</h3>
+   <span class="New-price">599</span>
+    <span class="Old-price">Rs.699</span>
+</div>
+
+
+</main>
+
+<footer>© 20226 </footer>
+
+
+</body>
+  <script>
+
+
+
+
+    function searchProducts() {
+      const input = document.getElementById('searchBar').value.toLowerCase();
+      const products = document.querySelectorAll('.product');
+      products.forEach(product => {
+        const name = product.querySelector('h3').textContent.toLowerCase();
+        product.style.display = name.includes(input) ? 'block' : 'none';
+      });
+    }
+/*
+    function viewProduct(name) {
+      alert("You clicked on " + name);
+    }*/
+
+    function addToCart(e) {
+      e.stopPropagation();
+      alert("Product added to cart!");
+    }
+/*
+     function buyNow(e) {
+      e.stopPropagation();
+      alert("Redirecting to payment page...");
+    }*/
+
+ 
+  </script>
+</html>
